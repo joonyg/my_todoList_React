@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+header {
+  background-color: gainsboro;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  height: 50px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-family: "DNFBitBitv2";
+  border-bottom: 7px solid floralwhite;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.todo_layout{
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: relative;
+  display: block;
+  flex-direction: column; 
+  background-color: white; /* 배경 색상 추가 */
+  transition: all 0.5s; /* 트랜지션 추가 */
+}
+#todo_title,#todo_input{
+ width: 60%;
 }
 
-.App-link {
-  color: #61dafb;
+.button_seaction{
+  width: 25%;
+  margin-top: 15px;
+  position: relative;
+  left: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html{
+  justify-content: center;
+  position: relative;
+}
+.input_section{
+  background-color: gainsboro;
+}
+
+.input_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_field {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.todo_Working_Seaction{
+  padding: 10px;
+}
+.component-style{
+  width: 250px;
+  height: 150px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-top: 10px;
+  text-align: center;
+  margin-right: 10px;
+  
+}
+.todo_Done_Seaction{
+  padding: 10px;
+  margin-top: 10px;
+}
+.todo_input_row {
+  display: flex;
+  justify-content: flex-start;
+}
+.todo_btn{
+  margin-top: 20px;
+  
+}
+.todo_btn button {
+  margin-right: 20px; 
 }
