@@ -24,6 +24,7 @@ export default Todo_card;
 
 const Todo_Success_Card =(item) =>{
 return(
+
 <div key={item.id} className='todo_Card_Style'>
 <div className="component-style">
 <h3>{item.todo_Title}</h3>
